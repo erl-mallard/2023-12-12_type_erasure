@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Demonstration1">
+      <UniqueIdentifier>{a0598340-c410-4189-8f02-ef1f863178e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Demonstration2">
+      <UniqueIdentifier>{1605d45f-aa64-492c-9af6-2d889666a9c2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="usage_example.h">
+      <Filter>Source Files\Demonstration1</Filter>
+    </ClInclude>
+    <ClInclude Include="circular_buffer_signal.h">
+      <Filter>Source Files\Demonstration2</Filter>
+    </ClInclude>
+    <ClInclude Include="signal_view.h">
+      <Filter>Source Files\Demonstration2</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>Source Files\Demonstration2</Filter>
+    </ClInclude>
+    <ClInclude Include="signal_view_example.h">
+      <Filter>Source Files\Demonstration2</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
